@@ -1,0 +1,30 @@
+./
+├── HELLO.txt
+├── about/
+├── aboutme/
+│   └── index.html
+├── blog -> /home/gliggy/.ttbp/www/
+├── boatany/
+│   ├── boatany.png
+│   ├── boatany2.png
+│   └── boats.txt
+├── bullets.css
+├── cool.png
+├── email.gif
+├── fonts/
+│   ├── Aseran-Regular_v2.otf
+│   ├── PixelOperator-Bold.ttf
+│   └── PixelOperator_reduced.ttf
+├── glig.png
+├── index.html
+├── list.js
+├── list.txt
+├── print.gif
+├── shrimp.txt
+├── sitemap.html
+├── sitemap.py*
+├── stuff/
+├── style.css
+└── treeKnot.jpeg
+
+6 directories, 21 files
