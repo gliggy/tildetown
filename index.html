@@ -2,30 +2,78 @@
 <head>
 <title>~gliggy</title>
 <style type="text/css">
+  @font-face {
+    font-family: "PixelOperator_reduced";
+    src: url("./fonts/PixelOperator-Bold.ttf");
+  }
   body {
-    background-color:pink;
-    font-family: courier;
+    background-color:darkslateblue;
+    margin: 0;
+    font-family: PixelOperator_reduced, monospace, fixed;
+    font-size: 14pt;
+  }
+  h1 {
+    color:cyan;
+    text-align:center;
+  }
+  p {
+    color:cyan;
+    text-align:center;
+  }
+  a, a:visited {
+    color:deepskyblue;
+    text-align:center;
+  }
+  ul {
+    margin: 0 auto;
+    display: block;
+    width: 400px;
+    padding-bottom: 10px;
+  }
+  .glig {
+    display: block;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 10px;
+  }
+  #widgets {
+    background-color:lightskyblue;
+    padding:10px;
+    text-align:center;
+    display: block;
+    margin: 0 auto;
+    border-radius:10px;
+  }
+  .imgwidget {
+    min-width: 5%;
+    border: 2px solid black;
   }
 </style>
 </head>
 <body>
-
-  <h1>welcome to my ~~~~~~~~ homepage</h1>
-
-  <p> you should ssh in and edit index.html </p>
-  <p><a href="/~gliggy/aboutme">About me</a></p>
-  <img src="/~gliggy/glig.png" alt="glig"/>
-        <div id="tilde_ring" style="background-color:white; text-align:center; border-radius:10px;">
-        <p><em>a member of the tilde.town ~ring</em></p>
-        <p> <a id="tilde_town_ring" class="tilde_ring_link" href="">random ~user</a>
-          | <a id="random_tildebox" class="tilde_ring_link" href="">random ~box</a>
-          | <a id="tilde_town_ring_next" class="tilde_ring_link" href="">next ~user</a> </p>
-        <p><a href="https://tilde.town/~um/tilde_ring/join.html">join</a></p>
-        <script type="text/javascript">
-          var ringjs = document.createElement('script')
-          ringjs.src = document.location.protocol + '//tilde.town/~um/tilde_ring/tilde_ring.js'
-          document.getElementById('tilde_ring').appendChild(ringjs)
-        </script>
-      </div>
+  <h1>welcome to my homepage</h1>
+  <ul>
+    <li><a href="/~gliggy/aboutme">About me</a></li>
+    <li><a href="/~gliggy/blog">Blog</a></li>
+    <li><a href="/~gliggy/sitemap.html">Sitemap</a></li>
+  </ul>
+  <img src="/~gliggy/glig.png" alt="glig" class="glig"/>
+  <div id="tilde_ring" style="background-color:midnightblue; text-align:center; border-radius:10px;">
+    <p><em>a member of the tilde.town ~ring</em></p>
+    <p> <a id="tilde_town_ring" class="tilde_ring_link" href="">random ~user</a>
+      | <a id="random_tildebox" class="tilde_ring_link" href="">random ~box</a>
+      | <a id="tilde_town_ring_next" class="tilde_ring_link" href="">next ~user</a> </p>
+    <p><a href="https://tilde.town/~um/tilde_ring/join.html">join</a></p>
+    <script type="text/javascript">
+      var ringjs = document.createElement('script')
+      ringjs.src = document.location.protocol + '//tilde.town/~um/tilde_ring/tilde_ring.js'
+      document.getElementById('tilde_ring').appendChild(ringjs)
+    </script>
+  </div>
+  <span id="widgets">
+    <a href=""><img src="/~gliggy/email.gif" alt="email" class="imgwidget"/></a>
+     | 
+    <a href=""><img src="/~gliggy/print.gif" alt="print" class="imgwidget"/></a>
+  </span>
 </body>
 </html>
