@@ -3,6 +3,7 @@
 ├── about/
 ├── aboutme/
 │   └── index.html
+├── baguettesViennoises.jpg
 ├── blog -> /home/gliggy/.ttbp/www/
 ├── boatany/
 │   ├── boatany.png
@@ -10,21 +11,28 @@
 │   └── boats.txt
 ├── bullets.css
 ├── cool.png
+├── duck.png
 ├── email.gif
 ├── fonts/
 │   ├── Aseran-Regular_v2.otf
 │   ├── PixelOperator-Bold.ttf
 │   └── PixelOperator_reduced.ttf
 ├── glig.png
+├── immortalFuture.png
 ├── index.html
 ├── list.js
 ├── list.txt
 ├── print.gif
+├── rocks/
+│   ├── index.html
+│   ├── rock
+│   └── uluru.jpg
+├── score.png
 ├── shrimp.txt
 ├── sitemap.html
 ├── sitemap.py*
 ├── stuff/
 ├── style.css
-└── treeKnot.jpeg
+└── treeKnot.jpg
 
-6 directories, 21 files
+7 directories, 28 files
