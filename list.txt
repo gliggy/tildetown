@@ -1,6 +1,5 @@
 ./
 ├── HELLO.txt
-├── about/
 ├── aboutme/
 │   └── index.html
 ├── baguettesViennoises.jpg
@@ -35,4 +34,4 @@
 ├── style.css
 └── treeKnot.jpg
 
-7 directories, 28 files
+6 directories, 28 files
